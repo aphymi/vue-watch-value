@@ -1,6 +1,6 @@
 {
   "name": "vue-watch-value",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Add an option to make Vue watchers only trigger when their watchee's value changes, ignoring reference changes.",
   "main": "vue-watch-value.js",
   "scripts": {
