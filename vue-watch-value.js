@@ -18,8 +18,8 @@ module.exports = {
 					callback = callback.bind(this);
 					
 					function compareValueCallback(newValue, oldValue) {
-						// Only call the callback if there's been an actual value
-						// change, and not just a reference change.
+						// Only call the callback if there's been an actual
+						// value change, and not just a reference change.
 						if (!deepEqual(newValue, oldValue)) {
 							callback(newValue, oldValue);
 						}
